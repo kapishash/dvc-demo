@@ -9,3 +9,4 @@
 6) git add data/data.txt.dvc
 7) git add data/.gitignore
 8) after update the data file you need to call dvc add data/data.txt again and it will change the hashkey created while adding data.txt for first time
+9) to get the previous version of data back first do git checkout with perticular code and then dvc checkout
