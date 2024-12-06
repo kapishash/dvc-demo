@@ -1,0 +1,11 @@
+1) initialize git repo or clone
+2) install dvc
+3) dvc initialize
+4) git commit dvc file
+        new file:   .dvc/.gitignore
+        new file:   .dvc/config
+        new file:   .dvcignore
+5) dvc add " data (path of your data file)"
+6) git add data/data.txt.dvc
+7) git add data/.gitignore
+8) after update the data file you need to call dvc add data/data.txt again and it will change the hashkey created while adding data.txt for first time
